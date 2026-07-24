@@ -170,6 +170,20 @@
   --sjs2-border-effect-component-check-true-hovered: inset 0 0 0 2px rgb(var(--v-theme-primary));
   --sjs2-border-effect-component-check-a11y: 0 0 0 0 transparent;
   --sjs2-color-component-boolean-invalid-border: rgb(var(--v-theme-error));
+  --sjs2-color-component-boolean-default-bg: transparent;
+  --sjs2-color-component-boolean-disabled-bg: transparent;
+  --sjs2-color-component-boolean-readonly-bg: transparent;
+  --sjs2-color-component-boolean-invalid-bg: transparent;
+  --sjs2-color-component-boolean-highlighted-bg: transparent;
+  --sjs2-color-component-boolean-design-bg: transparent;
+  --sjs2-color-component-boolean-item-false-default-bg: transparent;
+  --sjs2-color-component-boolean-item-false-hovered-bg: rgba(var(--v-theme-on-surface), var(--v-hover-opacity));
+  --sjs2-color-component-boolean-item-false-disabled-bg: transparent;
+  --sjs2-color-component-boolean-item-false-readonly-bg: transparent;
+  --sjs2-color-component-boolean-item-false-design-bg: transparent;
+  --sjs2-color-component-boolean-item-true-default-bg: transparent;
+  --sjs2-color-component-boolean-item-true-disabled-bg: transparent;
+  --sjs2-color-component-boolean-item-true-readonly-bg: transparent;
 
   --sjs2-color-component-buttongroup-item-true-default-bg: rgb(var(--v-theme-primary));
   --sjs2-color-component-buttongroup-item-true-default-value: rgb(var(--v-theme-on-primary));
@@ -227,6 +241,13 @@
 .sjs-theme-overrides input.sd-input,
 .sjs-theme-overrides textarea.sd-input {
   background-color: transparent !important;
+}
+
+.sjs-theme-overrides .sd-boolean,
+.sjs-theme-overrides .sd-boolean__label,
+.sjs-theme-overrides .sd-boolean-root {
+  background-color: transparent !important;
+  background: transparent !important;
 }
 
 .sjs-theme-overrides .sd-row {
